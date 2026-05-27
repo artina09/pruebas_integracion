@@ -39,7 +39,7 @@ jobs:
 
       # Ejecutar pruebas de integracion
       - name: Run tests
-        run: ./mvnw verify jacoco:report --no-transfer-progress
+        run: ./mvnw verify --no-transfer-progress
 
       # Generar informe de pruebas
       - name: Tests report
@@ -47,7 +47,7 @@ jobs:
         if: always()
         with:
           name: Test results
-          path: '**/target/surefire-reports/TEST-*.xml,**/target/failsafe-reports/TEST-*.xml'
+          path: '**/target/*-reports/TEST-*.xml'
           reporter: java-junit
           fail-on-error: false
 
