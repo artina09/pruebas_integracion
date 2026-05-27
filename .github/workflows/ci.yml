@@ -39,7 +39,7 @@ jobs:
 
       # Ejecutar pruebas de integracion
       - name: Run tests
-        run: ./mvnw verify --no-transfer-progress
+        run: ./mvnw verify jacoco:report --no-transfer-progress
 
       # Generar informe de pruebas
       - name: Tests report
