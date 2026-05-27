@@ -1,3 +1,5 @@
+[![CI — Build & Integration Tests](https://github.com/artina09/pruebas_integracion/actions/workflows/ci.yml/badge.svg)](https://github.com/artina09/pruebas_integracion/actions/workflows/ci.yml)
+
 # Proyecto de Pruebas de Integración con Spring Boot
 
 Proyecto de ejemplo para la asignatura **Infraestructuras y Procesos de Soporte** (UMA).  
