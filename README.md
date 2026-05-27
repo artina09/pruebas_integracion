@@ -1,5 +1,5 @@
 [![CI — Build & Integration Tests](https://github.com/artina09/pruebas_integracion/actions/workflows/ci.yml/badge.svg)](https://github.com/artina09/pruebas_integracion/actions/workflows/ci.yml)
-[!JaCoCo Coverage](https://raw.githubusercontent.com/artina09/pruebas_integracion/refs/heads/main/.github/badges/jacoco.svg)
+![JaCoCo Coverage](https://raw.githubusercontent.com/artina09/pruebas_integracion/refs/heads/main/.github/badges/jacoco.svg)
 
 # Proyecto de Pruebas de Integración con Spring Boot
 
